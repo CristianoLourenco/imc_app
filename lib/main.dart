@@ -51,6 +51,20 @@ class _HomeState extends State<Home> {
               fontSize: 25.0,
             ),
           ),
+          TextField(
+            keyboardType: TextInputType.number,
+            decoration: InputDecoration(
+              labelText: "Altura (cm)",
+              labelStyle: TextStyle(
+                color: Colors.blueGrey[900],
+              ),
+            ),
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              color: Colors.blueGrey[900],
+              fontSize: 25.0,
+            ),
+          ),
         ],
       ),
     );
